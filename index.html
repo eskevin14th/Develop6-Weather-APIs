@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <nav>
+        <h1>Weather Forecast</h1>
+    </nav>
+    <form id="weather-data">
+        <label for="location">Enter a location:</label>
+        <input type="text" id="location" name="location">
+        <button type="submit">Get Weather</button>
+      </form>
+    <div id ="box container">
+      <div id ="recent-searches-container">
+        <h2>Recent Searches</h2>
+        <ul id="recent-searches">
+        </ul>
+      </div>
+      <div id="weather-container">
+        <h2>Weather Today</h2>
+        <p id="temperature">Temperature: </p>
+        <p id="forecast">Forecast: </p>
+        <p id="wind">Wind: </p>
+        <p id="humidity">Humidity: </p>
+      </div>
+    </div>    
+  <script src="./Assets/style.js"></script>
+</body>
+</html>
